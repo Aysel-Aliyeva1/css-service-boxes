@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+.header {
+  color: black;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  padding-top: 120px;
+  text-shadow: 0 0 0.3px;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  background-color: #f2f2f2;
+  margin: 15px;
+}
+[class^="fa-solid"] {
+  margin-top: 40px;
+  font-size: 35px;
+  color: rgb(100, 59, 162);
+
+  float: left;
+}
+.row {
+  margin: auto;
+}
+
+p {
+  float: left;
+  margin-left: 55px;
+  margin-top: 5px;
+  color: rgb(148, 146, 146);
+}
+h2 {
+  float: left;
+  margin-left: 20px;
+  font-size: 24px;
+}
+.column:hover [class^="fa-solid"] {
+  color: white;
+}
+.column:hover {
+  background-color: rgb(100, 59, 162);
+  color: white;
+
+  border-radius: 10px;
+}
+.column:hover p {
+  color: white;
+}
